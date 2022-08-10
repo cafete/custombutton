@@ -1,7 +1,7 @@
 import org.gradle.api.tasks.bundling.Jar
 
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "example.reusablebutton"
+        //applicationId "example.reusablebutton"
         minSdk 21
         targetSdk 32
         versionCode 1
