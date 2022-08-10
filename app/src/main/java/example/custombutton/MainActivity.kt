@@ -19,10 +19,10 @@ class MainActivity : ComponentActivity() {
             CustomButtonTheme {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .fillMaxHeight()
-                        .padding(200.dp)) {
+                        .fillMaxHeight()) {
                     Greeting("compañero")
                 }
             }
